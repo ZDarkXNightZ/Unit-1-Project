@@ -1,0 +1,23 @@
+Declare max as 75.0  // Maximum discount percentage
+Declare mr, rr, ds as integers  // Number of movie rentals, number of referrals, and calculated discount
+
+Output "Display ASCII art"
+Output a blank line
+
+Output "Welcome to Blockbuster!"
+
+Output a blank line
+
+Output "Enter the number of movies rented"
+Input mr
+
+Output "Enter the number of new customer referrals"
+Input rr
+
+Calculate ds = mr + rr
+
+If ds is greater than max
+    Set ds to max  // Set the discount to the maximum if it exceeds the maximum
+
+Output a blank line
+Output "Your discount is: " + ds + "%"
