@@ -1,0 +1,66 @@
+// Initialize variables
+Declare mp1, mp2, mp3, mo1, mo2, mo3, mc1, mc2, mc3 as doubles
+Declare ms1, ms2, ms3, totalc as integers
+Declare totalm, totals, totalavg as doubles
+
+// Display ASCII art
+Display "Blockbuster ASCII Art"
+Display a blank line
+
+// Display welcome message
+Display "Welcome to Blockbuster!"
+Display a blank line
+
+// Input movie prices and quantities
+Display "Enter the price of 'Dances with Muskrats'"
+Input mp1
+Display "Enter the number of copies of 'Dances with Muskrats' in stock"
+Input ms1
+
+Display "Enter the price of 'The Mighty Dentists'"
+Input mp2
+Display "Enter the number of copies of 'The Mighty Dentists' in stock"
+Input ms2
+
+Display "Enter the price of 'While You Were Snoring'"
+Input mp3
+Display "Enter the number of copies of 'While You Were Snoring' in stock"
+Input ms3
+
+// Calculate various values
+totalm = mp1 + mp2 + mp3
+totalc = ms1 + ms2 + ms3
+totals = (mp1 * ms1) + (mp2 * ms2) + (mp3 * ms3)
+totalavg = totalm / 3
+mo1 = mp1 * 0.10
+mo2 = mp2 * 0.10
+mo3 = mp3 * 0.10
+mc1 = mo1 * 4
+mc2 = mo2 * 4
+mc3 = mo3 * 4
+
+// Display header for movie information
+Display "Movie title                  Price          Amount in Stock     Rent for a day     Rent for a week"
+Display "________________________________________________________________________________________________"
+
+// Display details for each movie
+Display "Dances with Muskrats"          mp1            ms1 DVDs         mo1                 mc1
+Display a blank line
+
+Display "The Mighty Dentists"          mp2            ms2 DVDs         mo2                 mc2
+Display a blank line
+
+Display "While You Were Snoring"       mp3            ms3 DVDs         mo3                 mc3
+Display a blank line
+
+// Display total statistics
+Display "The store is currently carrying: totalc DVDs"
+Display a blank line
+
+Display "The average price of a DVD is: totalavg"
+Display a blank line
+
+Display "To buy one of each of the DVDs it would cost: totalm"
+Display a blank line
+
+Display "The total price of all of the DVDs is: totals"
