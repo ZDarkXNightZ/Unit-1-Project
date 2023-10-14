@@ -16,7 +16,11 @@ int main()
     cout<<"_  /_/ /_  / / /_/ / /__ _  ,<  _  /_/ // /_/ /_(__  )/ /_ /  __/  /  \n";
     cout<<"/_____/ /_/  \\____/\\___/ /_/|_| /_____/ \\__,_/ /____/ \\__/ \\___//_/ \n";
     
+    cout<<" \n";
+    
     cout<<"Welcome to Blockbuster!\n";
+    
+    cout<<" \n";
     
     cout << "What is the price of Dances with Muskrats?" << endl;
     cin >> mp1;
@@ -49,16 +53,22 @@ int main()
 
     cout << left << setw(25) <<"Movie title" << setw(15) <<"Price"<< setw(20) <<"Amount in Stock" <<  setw(21) << "Rent for a day" << "Rent for a week"<<endl;
     cout << "________________________________________________________________________________________________"<<endl;
+    
     cout << left << setw(25) << "Dances with Muskrats"<< setw(15) << mp1 << setw(3) << ms1 << setw(17) <<" DVDs"<<"$"<< setw(20) << mo1 <<"$"<< mc1 <<endl;
     cout << " "<<endl;
+    
     cout << left << setw(25) << "The Mighty Dentists"<< setw(15) << mp2 << setw(3) << ms2 << setw(17) <<" DVDs"<<"$"<< setw(20) << mo2 <<"$"<< mc2 <<endl;
     cout << " "<<endl;
+    
     cout << left << setw(25) << "While You Were Snoring"<< setw(15) << mp3 << setw(3)<< ms3 << setw(17) <<" DVDs"<<"$"<< setw(20) << mo3 <<"$"<< mc3 <<endl;
     cout << " "<<endl;
+    
     cout << "The store is currently carrying: "<<totalc<<" DVDs\n";
     cout << " "<<endl;
+    
     cout << "The average price of a DVD is: $" << totalavg << endl;
     cout << " "<<endl;
+    
     cout << "To buy one of each of the DVDs it would cost: $" << totalm << endl;
     cout << " "<<endl;
     cout << "The total price of all of the DVDs is: $" << totals << endl;
