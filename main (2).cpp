@@ -34,9 +34,8 @@ int main() {
     ds = mr + rr;
 
     // Ensure the discount doesn't exceed the maximum
-    if (ds > max) {
-        ds = max;  // Set the discount to the maximum if it exceeds the maximum
-    }
+    if (ds > max) 
+    {ds = max;}  // Set the discount to the maximum if it exceeds the maximum
 
     // Display the calculated discount
     cout << "\n";
