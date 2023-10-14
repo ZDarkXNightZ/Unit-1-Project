@@ -78,6 +78,4 @@ int main() {
     cout << "To buy one of each of the DVDs it would cost: $" << totalm << endl;
     cout << " \n";
     cout << "The total price of all of the DVDs is: $" << totals << endl;
-
-    return 0;
 }
